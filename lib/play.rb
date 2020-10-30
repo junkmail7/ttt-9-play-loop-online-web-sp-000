@@ -38,8 +38,8 @@ end
 # Define your play method below
 def play(board)
   x = 0
-  until x <= 8
+  until x == 20
+    puts "The current number is less than 20."
     x += 1
-    turn(board)
   end
 end
